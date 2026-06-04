@@ -2,6 +2,8 @@
 import streamlit as st
 
 from utils.auth import check_login, get_username
+st.set_page_config(page_title="Aarai - Home")
+
 
 check_login()
 username = get_username()
