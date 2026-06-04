@@ -8,8 +8,6 @@ users = {
     "test@gmail.com":"test"
 }
 
-
-
 email_id = st.text_input("Email")
 password = st.text_input("Password",type="password")
 

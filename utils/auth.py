@@ -1,8 +1,6 @@
 #auth.py
 import streamlit as st
 
-
-
 def check_login():
     if not st.session_state.get("logged_in") :
         st.warning("Please login to continue")
