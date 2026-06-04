@@ -1,6 +1,7 @@
 #main.py
 import streamlit as st
 
+st.set_page_config(page_title="Aarai")
 
 st.title("Aarai")
 users = {
